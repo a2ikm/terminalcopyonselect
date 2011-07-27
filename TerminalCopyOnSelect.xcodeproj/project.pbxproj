@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07BFD0E913DFD27D00F88315 /* TCOSPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 07BFD0E813DFD27D00F88315 /* TCOSPreferences.nib */; };
 		543C23BA0CD66E0D00F7E2C9 /* TerminalCopyOnSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 543C23B90CD66E0D00F7E2C9 /* TerminalCopyOnSelect.m */; };
-		54E21F160CD7D01E00EEA257 /* TCOSPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 54E21F150CD7D01E00EEA257 /* TCOSPreferences.nib */; };
 		54E21F190CD7D03800EEA257 /* TCOSPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E21F180CD7D03800EEA257 /* TCOSPreferences.m */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07BFD0EA13DFD28C00F88315 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/TCOSPreferences.nib; sourceTree = "<group>"; };
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -36,7 +37,7 @@
 		32DBCF630370AF2F00C91783 /* TerminalCopyOnSelect_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalCopyOnSelect_Prefix.pch; sourceTree = "<group>"; };
 		543C23B80CD66E0D00F7E2C9 /* TerminalCopyOnSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalCopyOnSelect.h; sourceTree = "<group>"; };
 		543C23B90CD66E0D00F7E2C9 /* TerminalCopyOnSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerminalCopyOnSelect.m; sourceTree = "<group>"; };
-		54E21F150CD7D01E00EEA257 /* TCOSPreferences.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = TCOSPreferences.nib; sourceTree = "<group>"; };
+		54E21F150CD7D01E00EEA257 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TCOSPreferences.nib; sourceTree = "<group>"; };
 		54E21F170CD7D03800EEA257 /* TCOSPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCOSPreferences.h; sourceTree = "<group>"; };
 		54E21F180CD7D03800EEA257 /* TCOSPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCOSPreferences.m; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* TerminalCopyOnSelect.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerminalCopyOnSelect.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +82,7 @@
 			children = (
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-				54E21F150CD7D01E00EEA257 /* TCOSPreferences.nib */,
+				07BFD0E813DFD27D00F88315 /* TCOSPreferences.nib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -159,7 +160,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "TerminalCopyOnSelect" */;
 			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* TerminalColoreopard */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -175,7 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				54E21F160CD7D01E00EEA257 /* TCOSPreferences.nib in Resources */,
+				07BFD0E913DFD27D00F88315 /* TCOSPreferences.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +202,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		07BFD0E813DFD27D00F88315 /* TCOSPreferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54E21F150CD7D01E00EEA257 /* English */,
+				07BFD0EA13DFD28C00F88315 /* Japanese */,
+			);
+			name = TCOSPreferences.nib;
+			sourceTree = "<group>";
+		};
 		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
